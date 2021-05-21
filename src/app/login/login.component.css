@@ -1,0 +1,78 @@
+body {
+  min-height: 100vh;
+}
+
+.loginPage {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.loginLeft {
+  background-color: #148fed;
+  text-align: right;
+}
+
+.loginLeft img {
+  width: 100%;
+}
+
+.loginRight {
+  background-color: #fff;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginRight .loginForm {
+  width: 280px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginRight .loginForm .logo {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.loginRight .loginForm h4 {
+  font-size: 16px;
+  color: #4d4d4d;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+}
+
+.loginRight .loginForm .loginSocial {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.loginRight .loginForm .loginSocial .ic_fb:hover svg path {
+  fill: #148fed;
+}
+
+.loginRight .loginForm .loginSocial .ic_insta:hover svg g ellipse, .loginRight .loginForm .loginSocial .ic_insta:hover svg #Path_4010, .loginRight .loginForm .loginSocial .ic_insta:hover svg #Path_4011 {
+  fill: #148fed;
+}
+
+.loginRight .loginForm .loginSocial .ic_google:hover svg path {
+  fill: #148fed;
+}
+/*# sourceMappingURL=login.component.css.map */

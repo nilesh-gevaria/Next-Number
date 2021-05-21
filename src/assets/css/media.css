@@ -1,0 +1,49 @@
+
+@media screen and (max-width: 992px) {
+    .loginPage {
+        flex-direction: column;
+    }
+    .loginPage .loginRight {
+        min-height: 52vh !important;
+    }
+    .collapseCustom {
+        position: absolute;
+        top: 100%;
+        background: #F0F4FF;
+        width: 100%;
+        left: 0;
+    }
+    .navbarCustom ul.navbar-nav .nav-item {
+        padding: 10px 20px !important;
+    }
+}
+@media screen and (max-width: 767px) {
+    .loginPage .loginRight {
+        min-height: 65vh !important;
+        padding: 20px 0;
+    }
+    .loginLeft img {
+        width: 80% !important;
+    }
+    .loginPage .logo {
+        margin-bottom: 30px !important;
+    }
+    .headerRight .userName {
+        display: none;
+    }
+    .navbarCustom img {
+        width: 140px !important;
+    }
+    .currentNumber,
+    .waitingCount {
+        margin-top: 0 !important;
+    }
+    .currentNumber h1,
+    .waitingCount h1 {
+        font-size: 60px !important;
+        line-height: 50px !important;
+    }
+    .dashboard p {
+        font-size: 13px !important;
+    }
+}

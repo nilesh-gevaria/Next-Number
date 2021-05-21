@@ -1,0 +1,62 @@
+<div class="loginPage">
+    <div class="col-12 col-md-12 col-lg-8 col-xl-9 px-0 loginLeft">
+      <img src="../../assets/images/login.png" />
+    </div>
+    <div class="col-12 col-md-12 col-lg-4 col-xl-3 px-0 loginRight">
+      <div class="loginForm">
+        <div class="logo"><img src="../../assets/images/logo.png" width="200px" class="img-flud" /></div>
+        <h4>Login to continue</h4>
+        <form class="col-12 px-0">
+            <div class="form-group">
+              <input type="text" class="form-control inputCustom" id="username" placeholder="Username">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control inputCustom" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <label class="control control--checkbox">Remember Me
+                  <input type="checkbox" />
+                  <div class="control__indicator"></div>
+                </label>
+            </div>
+            <div class="form-group">
+              <button routerLink="/dashboard" routerLinkActive="active" type="submit" class="btn btn-block btn-theme">Login</button>
+            </div>
+            <div class="form-group">
+              <div class="loginSocial col-6 px-0 d-flex mx-auto">
+                <a href="#" class="ic_fb">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                    <path id="fb" d="M15,0A15,15,0,1,0,30,15,15,15,0,0,0,15,0Zm5.723,7.639H18.648c-1.627,0-1.941.773-1.941,1.907v2.5h3.88l0,3.918H16.707V26.02H12.66V15.966H9.277V12.048H12.66V9.159c0-3.353,2.049-5.179,5.039-5.179l3.023,0V7.639Z" fill="#4d4d4d"/>
+                  </svg>                  
+                </a>
+                <a href="#" class="ic_insta">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="29.071" viewBox="0 0 30 29.071">
+                    <g id="insta" transform="translate(0.02 -0.416)">
+                      <ellipse id="Ellipse_164" data-name="Ellipse 164" cx="15" cy="14.535" rx="15" ry="14.535" transform="translate(-0.02 0.416)" fill="#4d4d4d"/>
+                      <path id="Path_4012" data-name="Path 4012" d="M19.933,22.288H6.3a2.3,2.3,0,0,1-2.354-2.354V6.3A2.3,2.3,0,0,1,6.3,3.947H19.933A2.3,2.3,0,0,1,22.288,6.3V19.934A2.3,2.3,0,0,1,19.933,22.288Z" transform="translate(1.883 1.883)" fill="#fff"/>
+                      <ellipse id="Ellipse_165" data-name="Ellipse 165" cx="3.495" cy="3.386" rx="3.495" ry="3.386" transform="translate(11.523 11.573)" fill="#4d4d4d"/>
+                      <path id="Path_4010" data-name="Path 4010" d="M34.207,44.814c0,2.894-2.65,5.241-5.919,5.241s-5.919-2.346-5.919-5.241a4.686,4.686,0,0,1,.244-1.493H20.863v7.351a.728.728,0,0,0,.757.692H34.882a.729.729,0,0,0,.757-.692V43.321H33.963A4.693,4.693,0,0,1,34.207,44.814Z" transform="translate(-13.268 -29.443)" fill="#4d4d4d"/>
+                      <path id="Path_4011" data-name="Path 4011" d="M62.872,24.3h1.967a.785.785,0,0,0,.783-.783V21.646a.785.785,0,0,0-.783-.783H62.872a.785.785,0,0,0-.783.783v1.875A.785.785,0,0,0,62.872,24.3Z" transform="translate(-43.582 -12.949)" fill="#4d4d4d"/>
+                    </g>
+                  </svg>                                    
+                </a>
+                <a href="#" class="ic_google">
+                  <svg id="google" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+                    <path id="Path_4013" data-name="Path 4013" d="M36.223,21.4c0-1.973-1.176-5.041-3.444-5.041a2.554,2.554,0,0,0-1.915.9,3.163,3.163,0,0,0-.6,2.028c0,1.834,1.065,4.875,3.417,4.875A2.5,2.5,0,0,0,36.223,21.4Z" transform="translate(-20.85 -11.241)" fill="#4d4d4d"/>
+                    <path id="Path_4014" data-name="Path 4014" d="M31.42,58.347a4.41,4.41,0,0,0-.628-.027,10.831,10.831,0,0,0-2.871.44,3.075,3.075,0,0,0-2.35,2.821c0,1.946,1.886,3.344,4.811,3.344,2.625,0,4.02-1.263,4.02-2.959C34.4,60.564,33.5,59.827,31.42,58.347Z" transform="translate(-17.542 -40.144)" fill="#4d4d4d"/>
+                    <path id="Path_4015" data-name="Path 4015" d="M15,0A15,15,0,1,0,30,15,15,15,0,0,0,15,0ZM11.506,26.07c-4.179,0-6.195-1.991-6.195-4.129a4.158,4.158,0,0,1,2.218-3.522,12.41,12.41,0,0,1,5.5-1.33,3.024,3.024,0,0,1-.864-1.963A2.617,2.617,0,0,1,12.456,14c-.317.029-.633.058-.921.058A4.561,4.561,0,0,1,6.753,9.523,5.2,5.2,0,0,1,8.6,5.655a8.784,8.784,0,0,1,5.446-1.725h5.677L17.845,5.107H16.06a4.867,4.867,0,0,1,2.043,3.9c0,2.135-1.209,3.149-2.418,4.1a2.027,2.027,0,0,0-.808,1.415,1.594,1.594,0,0,0,.749,1.242l1.038.807c1.268,1.068,2.421,2.05,2.42,4.044C19.085,23.328,16.461,26.07,11.506,26.07ZM23.94,14.647v2.9H22.514v-2.9H19.632V13.206h2.883V10.319H23.94v2.887h2.9v1.442Z" fill="#4d4d4d"/>
+                  </svg>                                  
+                </a>
+              </div>
+            </div>
+            <div class="form-group text-center">
+              <a href="#">Forgot Password?</a>
+            </div>
+            <div class="form-group text-center">
+              For more details <a href="#">Click here</a>
+            </div>
+        </form>
+      </div>
+    </div>
+</div>
+

@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,QAAQ;EAClB,MAAM,EAAE,CAAC;EACT,gBAAgB,EEPT,OAAqB;EFQ5B,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;ECVvB,SAAS,EDWK,IAAI;ECVlB,KAAK,ECDA,IAAI;EDET,WAAW,EDSiB,GAAG;ECR/B,WAAW,EAAE,oBAAoB;CDiBpC;;AAlBD,AAUI,MAVE,CAUF,CAAC,CAAC;ECZF,SAAS,EDaS,IAAI;ECZtB,KAAK,ECDA,IAAI;EDET,WAAW,EDWqB,GAAG;ECVnC,WAAW,EAAE,oBAAoB;EDW7B,eAAe,EAAE,IAAI;CAKxB;;AAjBL,AAaQ,MAbF,CAUF,CAAC,AAGI,MAAM,CAAC;EACJ,KAAK,EEhBR,IAAI;EFiBD,eAAe,EAAE,SAAS;CAC7B",
+    "sources": [
+        "footer.component.scss",
+        "../../assets/scss/_mixins.scss",
+        "../../assets/scss/_variables.scss"
+    ],
+    "names": [],
+    "file": "footer.component.css"
+}

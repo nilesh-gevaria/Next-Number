@@ -1,0 +1,105 @@
+@import "../../assets/scss/mixins";
+@import "../../assets/scss/variables";
+
+
+.dashboard {
+    padding-bottom: 60px;
+    .clock {
+        @include font(18px, $darkGray, 400);
+    }
+    .btn-blue { 
+        color: $white; 
+        background-color: $blue; 
+        border: 0; 
+        border-radius: 8px;
+        @include font(18px, $white, 500);
+        text-transform: uppercase;
+        height: 78px;
+        box-shadow: $btnShadow;
+        display: flex;
+        align-items: center;
+        &:hover {
+            background-color: rgba($blue, .8); 
+            @include font(18px, $white, 500);
+        }
+        &:focus {
+            background-color: $blue;
+            @include font(18px, $white, 500);
+        }
+    } 
+    .btn-theme { 
+        color: $white; 
+        background-color: $primary; 
+        border: 0; 
+        border-radius: 8px;
+        @include font(18px, $white, 500);
+        text-transform: uppercase;
+        height: 78px;
+        box-shadow: $btnShadow;
+        display: flex;
+        align-items: center;
+        min-width: 80px;
+        &:hover {
+            background-color: rgba($primary, .8); 
+            @include font(18px, $white, 500);
+        }
+        &:focus {
+            background-color: $primary;
+            @include font(18px, $white, 500);
+        }
+    } 
+    .btn-red { 
+        color: $white; 
+        background-color: $red;
+        border: 0; 
+        border-radius: 8px;
+        @include font(18px, $white, 500);
+        text-transform: uppercase;
+        height: 78px;
+        box-shadow: $btnShadow;
+        display: flex;
+        align-items: center;
+        min-width: 80px;
+        &:hover {
+            background-color: rgba($red, .8); 
+            @include font(18px, $white, 500);
+        }
+        &:focus {
+            background-color: $red;
+            @include font(18px, $white, 500);
+        }
+    } 
+    .currentNumber {
+        background-color: $lightBlue;
+        border-radius: 10px;
+        padding: 20px 0;
+        text-align: center;
+        margin-top: 10px;
+        h1 {
+            @include font(100px, $blue, 900);
+            line-height: 90px;
+            margin: 0;
+        }
+        h4 {
+            @include font(16px, $blue, 500);
+        }
+    }
+    .waitingCount {
+        background-color: $lightBlue;
+        border-radius: 10px;
+        padding: 20px 0;
+        text-align: center;
+        margin-top: 10px;
+        h1 {
+            @include font(100px, $primary, 300);
+            line-height: 90px;
+            margin: 0;
+        }
+        h4 {
+            @include font(16px, $primary, 500);
+        }
+    }
+    p {
+        @include font(16px, $darkGray, 500);
+    }
+}

@@ -1,0 +1,128 @@
+.navbarCustom {
+  height: 70px;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.05);
+  background-color: #fff;
+}
+
+.navbarCustom img {
+  width: 170px;
+}
+
+.navbarCustom ul.navbar-nav .nav-item {
+  padding: 5px 10px;
+}
+
+.navbarCustom ul.navbar-nav .nav-item.active .nav-link {
+  color: #148fed;
+}
+
+.navbarCustom ul.navbar-nav .nav-item .nav-link {
+  padding: 0;
+  font-size: 16px;
+  color: #4d4d4d;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.navbarCustom ul.navbar-nav .nav-item .nav-link:hover {
+  color: #148fed;
+}
+
+.navbarCustom .headerRight {
+  margin-left: auto;
+}
+
+.navbarCustom .headerRight ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navbarCustom .headerRight ul li {
+  padding: 0 10px;
+}
+
+.navbarCustom .headerRight ul li:last-child {
+  padding-right: 0;
+}
+
+.navbarCustom .headerRight ul li a {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 16px;
+  color: #4d4d4d;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+.navbarCustom .headerRight ul li a:hover {
+  color: #148fed;
+}
+
+.navbarCustom .headerRight ul li a .avatar {
+  margin-right: 10px;
+}
+
+.navbarCustom .navbar-toggler:focus,
+.navbarCustom .navbar-toggler:active {
+  outline: 0;
+}
+
+.navbarCustom .navbar-toggler {
+  height: 45px;
+  border: 0;
+}
+
+.navbarCustom .navbar-toggler span {
+  display: block;
+  background-color: #148fed;
+  height: 3px;
+  width: 25px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  position: relative;
+  opacity: 1;
+}
+
+.navbarCustom .navbar-toggler span:nth-child(1),
+.navbarCustom .navbar-toggler span:nth-child(3) {
+  -webkit-transition: transform 0.35s ease-in-out;
+  -webkit-transition: -webkit-transform 0.35s ease-in-out;
+  transition: -webkit-transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out;
+  transition: transform 0.35s ease-in-out, -webkit-transform 0.35s ease-in-out;
+}
+
+.navbarCustom .navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute;
+  top: 28px;
+  -webkit-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 0.9;
+}
+
+.navbarCustom .navbar-toggler:not(.collapsed) span:nth-child(2) {
+  visibility: hidden;
+  background-color: transparent;
+}
+
+.navbarCustom .navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute;
+  top: 28px;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 0.9;
+}
+/*# sourceMappingURL=header.component.css.map */

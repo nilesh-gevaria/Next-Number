@@ -1,0 +1,22 @@
+@import "../../assets/scss/mixins";
+@import "../../assets/scss/variables";
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: $primary;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @include font(14px, $white, 300);
+    a {
+        @include font(14px, $white, 500);
+        text-decoration: none;
+        &:hover {
+            color: $white;
+            text-decoration: underline;
+        }
+    }
+}
