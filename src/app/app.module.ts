@@ -8,7 +8,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { FooterComponent } from './footer/footer.component';
 
 const appRoutes: Routes = [
-  { path: 'login', component: LoginComponent },
+  { path: '', redirectTo: 'login', pathMatch : 'full' },
+  { path: 'login', component: LoginComponent },  
   { path: 'dashboard', component: DashboardComponent },
   { path: 'header', component: HeaderComponent },
   { path: 'footer', component: FooterComponent },
