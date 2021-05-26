@@ -25,16 +25,22 @@ h3 {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+label {
+  @include font(14px, $textGray, 400);
+}
+::placeholder {
+  @include font(14px, $textGray, 400);
+}
 .inputCustom {
     background-color: $white;
     border-radius: 8px;
-    @include font(14px, $textGray, 400);
+    @include font(14px, $darkGray, 400);
     border: solid 2px $lightGray;
     height: 38px;
     line-height: 38px;
     &:focus {
         background-color: $white;
-        @include font(14px, $textGray, 400);
+        @include font(14px, $darkGray, 400);
     }
 }
 .control-group {
@@ -173,8 +179,7 @@ h3 {
     border-top-color: #ccc;
   }
 
-  .btn-theme { 
-    color: $white; 
+  .btn-theme {
     background-color: $primary; 
     border: 0; 
     border-radius: 8px;
@@ -182,6 +187,8 @@ h3 {
     text-transform: uppercase;
     height: 38px;
     box-shadow: $btnShadow;
+    text-decoration:none;
+    line-height: 28px;
     &:hover {
         background-color: rgba($primary, .8); 
         @include font(14px, $white, 500);
@@ -191,3 +198,22 @@ h3 {
         @include font(14px, $white, 500);
     }
   } 
+  .btn-light {
+  background-color: $btnLightGray; 
+  border: 0; 
+  border-radius: 8px;
+  @include font(14px, $darkGray, 500);
+  text-transform: uppercase;
+  height: 38px;
+  box-shadow: $btnShadow;
+  text-decoration:none;
+  line-height: 28px;
+  &:hover {
+      background-color: rgba($btnLightGray, .8); 
+      @include font(14px, $darkGray, 500);
+  }
+  &:focus {
+      background-color: $btnLightGray;
+      @include font(14px, $darkGray, 500);
+  }
+} 
