@@ -25,6 +25,10 @@ h3 {
     text-transform: uppercase;
     margin-bottom: 20px;
 }
+.modal-title {
+  @include font(14px, $primary, 300);
+  text-transform: uppercase;
+}
 label {
   @include font(14px, $textGray, 400);
 }
@@ -179,7 +183,8 @@ label {
     border-top-color: #ccc;
   }
 
-  .btn-theme {
+  .btn-theme,
+  .modal .btn-theme {
     background-color: $primary; 
     border: 0; 
     border-radius: 8px;

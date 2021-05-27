@@ -35,7 +35,7 @@
             </button>
         </div>
         <div class="form-group col-4 col-sm-4 col-md-3 col-lg-auto order-2 order-sm-2 order-md-2 order-lg-3">
-            <button type="text" class="btn btn-theme">
+            <button type="text" class="btn btn-theme" data-toggle="modal" data-target="#smsModal">
                 <span class="mx-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
                         <g id="message" transform="translate(-1 -1)">
@@ -49,7 +49,7 @@
             </button>
         </div>
         <div class="form-group col-4 col-sm-4 col-md-3 col-lg-auto order-4 order-sm-4 order-md-4 order-lg-4">
-            <button type="text" class="btn btn-theme">
+            <button type="text" class="btn btn-theme" data-toggle="modal" data-target="#whatsAppModal">
                 <span class="mx-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" width="41.927" height="40" viewBox="0 0 41.927 40">
                         <g id="ic" transform="translate(-10.704 -21.658)">
@@ -138,3 +138,54 @@
     </div>
 
 </div>
+
+
+<!-- Modal Message-->
+<div class="modal fade" id="smsModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Send SMS</h5>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <input type="text" class="form-control inputCustom" id="" placeholder="Enter Mobile Number">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control inputCustom" row="3" id="">Message</textarea>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-theme" data-dismiss="modal">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal WhatsApp-->
+<div class="modal fade" id="whatsAppModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Send WhatsApp</h5>
+        </div>
+        <div class="modal-body">
+            <form>
+                <div class="form-group">
+                  <input type="text" class="form-control inputCustom" id="" placeholder="Enter Mobile Number">
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control inputCustom" row="3" id="">Message</textarea>
+                </div>
+              </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-light" data-dismiss="modal">Cancel</button>
+          <button type="button" class="btn btn-theme" data-dismiss="modal">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
